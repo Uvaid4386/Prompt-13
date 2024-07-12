@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen{
+    font-family:  "Roboto", sans-serif;
+    margin-top: 35px;
+    width: 290px;
+    height: 500px;
+    border-radius: 15px;
+    color: antiquewhite;
+    background-color: black;
+}
+.nav{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    color: antiquewhite;
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgb(21, 21, 21); */
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 15px;
+}
+.player img{
+    width: 30px;
+    border-radius: 50%;
+    padding: 5px 0;
+}
+.player h5{
+    font-size: 14px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    font-family: "Roboto", sans-serif;
+    width: 90%;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: rgb(34, 205, 57);
+    border: none;
+}
